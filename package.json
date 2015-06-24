@@ -1,0 +1,9 @@
+{
+  "name": "node-hello",
+  "version": "0.0.1",
+  "description": "webserver demo from http://nodejs.org/",
+  "dependencies" : [ ],
+  "engines": {
+    "node": ">=0.10"
+  }
+}
