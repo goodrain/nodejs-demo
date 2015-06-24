@@ -40,10 +40,10 @@ NodeJS 程序需要使用 [npm](https://www.npmjs.org) 管理依赖，且必须�
 
 ### 监听端口
 
-NodeJS 应用需要使用 `VCAP_APP_PORT` 环境变量的值来确定 web 服务需要监听的端口，示例：
+NodeJS 应用需要使用 `PORT` 环境变量的值来确定 web 服务需要监听的端口，示例：
 
 ```
-app.listen(process.env.VCAP_APP_PORT || 3000);
+app.listen(process.env.PORT || 5000;
 ```
 
 ### 启动命令
@@ -60,4 +60,4 @@ web: node app.js
 
 1. 执行 `npm install` 安装所需依赖包。
 2. 执行 `node app.js` 即可启动 web 服务器。
-3. 访问 <http://localhost:3000> 预览效果
+3. 访问 <http://localhost:5000> 预览效果
