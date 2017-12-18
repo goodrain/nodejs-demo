@@ -4,6 +4,6 @@
   "description": "webserver demo from http://nodejs.org/",
   "dependencies" : [ ],
   "engines": {
-    "node": "4.1.0"
+    "node": "8.9.3"
   }
 }
