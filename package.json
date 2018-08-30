@@ -2,8 +2,15 @@
   "name": "node-hello",
   "version": "0.0.1",
   "description": "webserver demo from http://nodejs.org/",
-  "dependencies" : [ ],
   "engines": {
     "node": "8.9.3"
-  }
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+      "ejs": "^2.6.1"
+  },
+  "license": "MIT"
 }
