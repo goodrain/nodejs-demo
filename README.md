@@ -27,6 +27,25 @@ NodeJS 程序需要使用 [npm](https://www.npmjs.org) 管理依赖，且必须�
 
 ```
 
+{
+  "name": "node-demo",
+  "version": "0.0.1",
+  "description": "webserver demo from http://nodejs.org/",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "license": "MIT"
+}
 
 ```
 
