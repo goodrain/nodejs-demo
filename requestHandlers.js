@@ -1,10 +1,14 @@
 //var querystring = require("querystring");
 var fs = require("fs");
 var mysql = require("mysql");
+var path = require("path");
 let mysql_table;
+var express =require("express");
+var app = express();
+
+app.use(express.static(path.join(__dirname,"static")))
 
 function start(response, postData) {
-  console.log("Request handler 'start' was called.");
   //读取HTML文件内容
   fs.readFile("./index.html", "utf-8", function(err, data) {
     if (err) {
