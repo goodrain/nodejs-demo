@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "webserver demo from http://nodejs.org/",
   "engines": {
-    "node": "8.9.3"
+    "node": "^8.9.3"
   },
   "main": "index.js",
   "scripts": {
