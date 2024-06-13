@@ -26,7 +26,7 @@ function start(route, handle) {
     //response.end();
   }
 
-  http.createServer(onRequest).listen(process.env.PORT || 5000, null);
+  http.createServer(onRequest).listen(process.env.PORT || 4000, null);
 }
 function api(route, handle) {
   function onRequest(request, response) {
@@ -52,7 +52,7 @@ function api(route, handle) {
     
   }
 
-  http.createServer(onRequest).listen(process.env.PORT || 5000, null);
+  http.createServer(onRequest).listen(process.env.PORT || 4000, null);
 }
 function env(route, handle) {
   function onRequest(request, response) {
@@ -77,7 +77,7 @@ function env(route, handle) {
     // response.end();
   }
 
-  http.createServer(onRequest).listen(process.env.PORT || 5000, null);
+  http.createServer(onRequest).listen(process.env.PORT || 4000, null);
 }
 
 exports.start = start;
